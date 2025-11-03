@@ -1,34 +1,34 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="SgVKwESlaYhcLO1qyyx8">
-    <mxGraphModel dx="1083" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="160" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-nYg8LaEWyjQ_8yCv0dj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-1" target="-nYg8LaEWyjQ_8yCv0dj-3" edge="1">
+        <mxCell id="GZqlu7bVayAspS0H5b0A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" edge="1" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-1" target="-nYg8LaEWyjQ_8yCv0dj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZqlu7bVayAspS0H5b0A-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-1" target="-nYg8LaEWyjQ_8yCv0dj-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-nYg8LaEWyjQ_8yCv0dj-1" value="User Class:&lt;div&gt;- generateEvent()&lt;/div&gt;&lt;div&gt;- toggleState()&lt;/div&gt;&lt;div&gt;- isOn&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="160" y="240" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-nYg8LaEWyjQ_8yCv0dj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-3" target="-nYg8LaEWyjQ_8yCv0dj-5" edge="1">
+        <mxCell id="GZqlu7bVayAspS0H5b0A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-3" target="-nYg8LaEWyjQ_8yCv0dj-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-nYg8LaEWyjQ_8yCv0dj-3" value="Event:&lt;div&gt;- getTime()&lt;/div&gt;&lt;div&gt;- getType()&lt;/div&gt;&lt;div&gt;- getUserID()&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="320" y="240" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="GZqlu7bVayAspS0H5b0A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" edge="1" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-5" target="-nYg8LaEWyjQ_8yCv0dj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-nYg8LaEWyjQ_8yCv0dj-5" value="Event Queue:&lt;div&gt;- addEvent()&lt;/div&gt;&lt;div&gt;- getNextEvent()&lt;/div&gt;&lt;div&gt;- isEmpty()&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="320" y="360" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-nYg8LaEWyjQ_8yCv0dj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-11" target="-nYg8LaEWyjQ_8yCv0dj-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-nYg8LaEWyjQ_8yCv0dj-11" value="Event Type&lt;div&gt;(ENUM):&lt;/div&gt;&lt;div&gt;- ON_period&lt;/div&gt;&lt;div&gt;- OFF_period&lt;/div&gt;&lt;div&gt;- SAMPLE_period&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="320" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-nYg8LaEWyjQ_8yCv0dj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-nYg8LaEWyjQ_8yCv0dj-18" target="-nYg8LaEWyjQ_8yCv0dj-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-nYg8LaEWyjQ_8yCv0dj-18" value="Heavytail:&lt;div&gt;- calcEventTime()&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="-nYg8LaEWyjQ_8yCv0dj-18" value="Heavytail:&lt;div&gt;-----------------------------&lt;/div&gt;&lt;div&gt;&lt;div&gt;- calcEventTime()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;-----------------------------&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="160" y="120" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
